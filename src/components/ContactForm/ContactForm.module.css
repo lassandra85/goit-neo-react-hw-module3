@@ -1,3 +1,33 @@
+.form {
+    display: flex;
+    flex-direction: column;
+
+    gap: 8px;
+    border: 2px solid hsl(69, 100%, 72%);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.field {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    margin-top: 8px;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
 .error {
-  color: red;
+    color: red;
+    font-size: 12px;
 }
